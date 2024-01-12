@@ -9,7 +9,7 @@ const MyNav = () => {
         <Flex alignItems={"center"}>
           <Heading as={"h2"} fontSize={['26px', '30px', '35px']} cursor={"pointer"}>Site Logo</Heading>
           <Spacer />
-          <UnorderedList transition={"all 400ms ease-in-out"} listStyleType={"none"} ms={"0"} display={"flex"} alignItems={"center"} gap={"40px"} justifyContent={['center', 'center']} flexDirection={['column', 'column', 'row']} position={['absolute', 'absolute', 'static']} top={show ? '0' : '-100vh'} left={'0'} h={['100vh', '100vh', 'auto']} w={['100%', '100%', 'auto']} bg={['red', 'red', 'transparent']} >
+          <UnorderedList transition={"all 400ms ease-in-out"} listStyleType={"none"} ms={"0"} display={"flex"} alignItems={"center"} gap={"40px"} justifyContent={['center', 'center']} flexDirection={['column', 'column', 'row']} position={['absolute', 'absolute', 'static']} top={show ? '0' : '-100vh'} left={'0'} h={['100vh', '100vh', 'auto']} w={['100%', '100%', 'auto']} bg={['white', 'white', 'transparent']} >
             <ListItem>
               <Link href='#' pos={"relative"} _after={{
                 content: '""', bg: 'black', w: '0', h: '2px', pos: 'absolute', borderRadius: '5px', bottom: '-2px', left: '0',

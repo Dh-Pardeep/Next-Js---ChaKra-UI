@@ -2,6 +2,8 @@
 'use client'
 
 import CustomAccordion from "./components/CustomAccordion"
+import CustomModal from "./components/CustomModal"
+import CustomTabs from "./components/CustomTabs"
 import HeroSection from "./components/HeroSection"
 
 export default function Page() {
@@ -9,6 +11,8 @@ export default function Page() {
     <>
       <HeroSection />
       <CustomAccordion />
+      <CustomTabs/>
+      <CustomModal/>
     </>
   )
 }

@@ -7,7 +7,7 @@ const MyNav = () => {
     <Box>
       <Box pt={['20px', '30px', '50px', '64px']}>
         <Flex alignItems={"center"}>
-          <Heading as={"h2"}  fontSize={['24px']} color={'#000638'} lineHeight={'100%'} fontFamily={'fontmerriweather'} fontWeight={'900'} cursor={"pointer"}>Food Ninja</Heading>
+          <Heading as={"h2"}  fontSize={['20px','24px']} color={'#000638'} lineHeight={'100%'} fontFamily={'fontmerriweather'} fontWeight={'900'} cursor={"pointer"}>Food Ninja</Heading>
           <Spacer />
           <UnorderedList transition={"all 400ms ease-in-out"} listStyleType={"none"} ms={"0"} display={"flex"} alignItems={"center"} gap={"20px"} justifyContent={['center', 'center']} flexDirection={['column', 'column', 'row']} position={['absolute', 'absolute', 'static']} top={show ? '0' : '-100vh'} left={'0'} h={['100vh', '100vh', 'auto']} w={['100%', '100%', 'auto']} bg={['white', 'white', 'transparent']} >
             <ListItem>

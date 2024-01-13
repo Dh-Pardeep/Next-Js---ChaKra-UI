@@ -1,12 +1,12 @@
 // app/page.tsx
 'use client'
 
-import MyNav from "./components/common/MyNav"
+import HeroSection from "./components/HeroSection"
 
 export default function Page() {
   return (
    <>
-   <MyNav/>
+   <HeroSection/>
    </>
   )
 }

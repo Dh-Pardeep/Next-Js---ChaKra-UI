@@ -5,35 +5,35 @@ const MyNav = () => {
   const [show, setShow] = useState(false);
   return (
     <Box>
-      <Container maxW={"1140px"} mx={"auto"} px={"4"} py={"3"}>
+      <Container maxW={"1140px"} mx={"auto"} px={"4"} pt={"64px"}>
         <Flex alignItems={"center"}>
-          <Heading as={"h2"} fontSize={['26px', '30px', '35px']} cursor={"pointer"}>Site Logo</Heading>
+          <Heading as={"h2"} pos={'relative'} zIndex={'10'} fontSize={['24px']} color={'#000638'} fontFamily={'fontmerriweather'} fontWeight={'900'} cursor={"pointer"}>Food Ninja</Heading>
           <Spacer />
-          <UnorderedList transition={"all 400ms ease-in-out"} listStyleType={"none"} ms={"0"} display={"flex"} alignItems={"center"} gap={"40px"} justifyContent={['center', 'center']} flexDirection={['column', 'column', 'row']} position={['absolute', 'absolute', 'static']} top={show ? '0' : '-100vh'} left={'0'} h={['100vh', '100vh', 'auto']} w={['100%', '100%', 'auto']} bg={['white', 'white', 'transparent']} >
+          <UnorderedList transition={"all 400ms ease-in-out"} listStyleType={"none"} ms={"0"} display={"flex"} alignItems={"center"} gap={"20px"} justifyContent={['center', 'center']} flexDirection={['column', 'column', 'row']} position={['absolute', 'absolute', 'static']} top={show ? '0' : '-100vh'} left={'0'} h={['100vh', '100vh', 'auto']} w={['100%', '100%', 'auto']} bg={['white', 'white', 'transparent']} >
             <ListItem>
-              <Link href='#' pos={"relative"} _after={{
-                content: '""', bg: 'black', w: '0', h: '2px', pos: 'absolute', borderRadius: '5px', bottom: '-2px', left: '0',
+              <Link href='#' pos={"relative"} fontFamily={'fontroboto'} color={'#605C59'} _after={{
+                content: '""', bg: '#605C59', w: '0', h: '2px', pos: 'absolute', borderRadius: '5px', bottom: '-2px', left: '0',
                 transition: "all 200ms ease-in-out",
               }} _hover={{ _after: { w: 'full' }, }}>Home
               </Link>
             </ListItem>
             <ListItem>
-              <Link href='#' pos={"relative"} _after={{
-                content: '""', bg: 'black', w: '0', h: '2px', pos: 'absolute', borderRadius: '5px', bottom: '-2px', left: '0',
+              <Link href='#' pos={"relative"} fontFamily={'fontroboto'} color={'#605C59'} _after={{
+                content: '""', bg: '#605C59', w: '0', h: '2px', pos: 'absolute', borderRadius: '5px', bottom: '-2px', left: '0',
                 transition: "all 200ms ease-in-out",
               }} _hover={{ _after: { w: 'full' }, }}>About
               </Link>
             </ListItem>
             <ListItem>
-              <Link href='#' pos={"relative"} _after={{
-                content: '""', bg: 'black', w: '0', h: '2px', pos: 'absolute', borderRadius: '5px', bottom: '-2px', left: '0',
+              <Link href='#' pos={"relative"} fontFamily={'fontroboto'} color={'#605C59'} _after={{
+                content: '""', bg: '#605C59', w: '0', h: '2px', pos: 'absolute', borderRadius: '5px', bottom: '-2px', left: '0',
                 transition: "all 200ms ease-in-out",
               }} _hover={{ _after: { w: 'full' }, }}>Blog
               </Link>
             </ListItem>
             <ListItem>
-              <Button bg={"black"} textColor={"white"} border={"1px solid black"} borderRadius={"10px"} pb={"2px"}
-                transition={"all 200ms ease-in-out "} _hover={{ color: "black", bg: "white", border: "1px solid black" }}>
+              <Button fontFamily={'fontroboto'} bg={"#283A61"} textColor={"white"} border={"1px solid #283A61"} borderRadius={"29px"} pb={"2px"}
+                transition={"all 200ms ease-in-out "} _hover={{ color: "#283A61", bg: "white", border: "1px solid #283A61" }}>
                 Log In
               </Button>
             </ListItem>

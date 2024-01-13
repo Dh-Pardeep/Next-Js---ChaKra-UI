@@ -3,7 +3,7 @@ import { extendTheme } from "@chakra-ui/react";
 
 export const theme = extendTheme({
   fonts: {
-    heading: "var(--font-rubik)",
-    body: "var(--font-rubik)",
+    fontroboto: "var(--font-roboto)",
+    fontmerriweather: "var(--font-merriweather)",
   },
 });
